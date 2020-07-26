@@ -1,5 +1,7 @@
 .page-section {
-    margin: 200px 0;
+    margin: 200px auto;
+    //чтобы слайдер не прилипал влево
+    max-width: 1920px;
 }
 
 //стилизуем заголовок
@@ -19,7 +21,7 @@
     font-family: 'RobotoCondensed-LightItalic';
     display: block;
     margin-top: -30px;
-    margin-left: 185px;
+    //margin-left: 185px; убрали так как меняется
 }
 
 //стидизуем слайдер
@@ -85,4 +87,8 @@ ul {
 
 .fairy-tail__text {
     padding: 10px 0; //если добавим текст чтоб не ломалось
+}
+
+.fairy-tail__title span {
+    margin-bottom: 185px; //перенсли  из тайтл спан
 }

@@ -1,0 +1,56 @@
+.our-trip__slider {
+    width: 50%;
+    margin-left: auto;
+}
+
+.our-trip__inner {
+    position: relative; //так как он родитель
+}
+
+.our-trip__container {
+    max-width: 1230px;
+    margin: 0 auto;
+    position: absolute; //сделали родителя и относительно его выставляем
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.our-trip__title span {
+    margin-left: 240px;
+}
+
+.our-trip__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start; //чтобы кнопка по центру
+    height: 100%;
+}
+
+.our-trip__list {
+    margin: 5px 0; //чтобы не совпадали
+    font-size: 24px;
+    line-height: 28px;
+}
+
+//делаем своййство для день так как это первые лишки
+.our-trip__list li:first-child {
+    margin-bottom: 20px;
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.our-trip__btn {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'RobotoCondensed-Light';
+    padding: 11px 53px;
+    border: 1px solid #E2AB3F;
+}
+
+//огрпничиваем ширину
+.our-trip__content {
+    width: 50%;
+    padding-right: 55px;
+}
