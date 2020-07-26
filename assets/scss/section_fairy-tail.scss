@@ -1,0 +1,88 @@
+.page-section {
+    margin: 200px 0;
+}
+
+//стилизуем заголовок
+.title {
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+    font-family: 'balqis';
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.title span {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    font-family: 'RobotoCondensed-LightItalic';
+    display: block;
+    margin-top: -30px;
+    margin-left: 185px;
+}
+
+//стидизуем слайдер
+.fairy-tail__slider {
+    width: 50%;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+//деаем позишн общему контейнеру текст и слайдер
+.fairy-tail__inner {
+    position: relative;
+}
+
+//дедаем стилистику текста
+.fairy-tail__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: absolute; //сделали родителя и относительно его выставляем
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+//пишем для бади свойства чтоб текст отправить вправа
+.fairy-tail__body {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fairy-tail__body-title {
+    font-family: 'RobotoCondensed-Regular';
+}
+
+//обнуляем ссылки для блока феритейл
+ul {
+    list-style: none;
+}
+
+.fairy-tail__text {
+    padding: 10px 0; //если добавим текст чтоб не ломалось
+}
