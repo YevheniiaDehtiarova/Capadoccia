@@ -6,5 +6,4 @@ $(function() {
         fade: true,
 
     });
-
 });
