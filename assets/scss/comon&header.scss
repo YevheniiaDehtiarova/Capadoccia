@@ -38,9 +38,13 @@
        font-display: swap;
    }
    
+   html {
+       overflow-x: hidden;
+   }
+   
    body {
        color: #000;
-       overflow-x: hidden;
+       //    overflow-x: hidden;
        overflow-y: scroll;
    }
    
@@ -50,9 +54,15 @@
    }
    
    .container {
-       max-width: 1230px; //макс для адапатации
+       max-width: 1320px; //макс для адапатации
        margin: 0 auto; //отталкиваем контейнер от центра марджинами
        padding: 0 15px;
+   }
+   
+   .page-section {
+       margin: 200px auto;
+       //чтобы слайдер не прилипал влево
+       max-width: 1920px;
    }
    
    .header {
@@ -60,7 +70,8 @@
        background-size: cover;
        height: 100vh; //ставим для того чтобы бло по ширине окна так как хедер маленький
        background-repeat: no-repeat; //чтобы не повторялось
-       background-position: bottom center; //какие части нужны  картинки
+       background-position: bottom center; //какие части нужны  картинк
+       max-width: 100%;
    }
    
    .header__top {
