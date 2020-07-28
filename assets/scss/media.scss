@@ -1,175 +1,310 @@
-@media (max-width:1240px) {
-    .header__title {
-        padding-top: 120px;
-        font-size: 180px;
-        line-height: 220px;
-    }
-    .header__title span {
-        font-size: 50px;
-        margin-top: -50px;
-    }
-}
-
-@media (max-width:991px) {
-    .page-section {
-        margin: 100px 0;
-    }
-    .fairy-tail__container,
-    .our-trip__container {
-        position: static; //отправили вниз
-    }
-    .fairy-tail__slider {
-        width: 100%; ///lделаем на вес экран
-    }
-    .our-trip__slider {
-        width: 100%; ///lделаем на вес экран
-    }
-    .fairy-tail__body {
-        width: 100%;
-        padding-left: 0;
-    }
-    .our-trip__body {
-        width: 100%;
-        padding-left: 0;
-    }
-    .hotel__images {
-        margin-right: 50px;
-    }
-    .hotel__content {
-        margin-right: 20px;
-        overflow: hidden;
-    }
-}
-
-@media (max-width:840px) {
-    .header__title {
-        padding-top: 100px;
-        font-size: 120px;
-        line-height: 150px;
-    }
-    .header__title span {
-        font-size: 30px;
-        margin-top: -44px;
-    }
-    .header__top {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    .header__phone::before {
-        width: 25px;
-        height: 25px;
-        background-size: cover;
-    }
-    .hotel__images {
-        margin-right: 30px;
-        width: 70%;
-    }
-}
-
-@media (max-width:700px) {
-    .hotel__inner {
-        display: flex;
-        justify-content: space-between;
-    }
-    .hotel__content {
-        margin-right: 5px;
-        // overflow: hidden;
-        width: 100%;
-    }
-}
-
-@media (max-width:600px) {
-    .header__top {
-        justify-content: center;
-        flex-wrap: wrap; //перенос если нет места
-    }
-    .menu {
-        width: 100%;
-        text-align: center;
-        margin: 0 0 25px;
-    }
-    .header__title {
-        font-size: 80px;
-        line-height: 120px;
-    }
-    .header__title span {
-        font-size: 22px;
-        margin-top: -46px;
-        margin-right: 15px;
-    }
-    .fairy-tail__item img,
-    .our-trip__slider-item img {
-        height: 50vh;
-        width: 100%; //полоску белую убрали сбоку
-        object-fit: cover; //аналог свойства замостить обязательно с высотой и ширитой
-        //Свойство object-fit определяет, как содержимое заменяемого элемента, такого как <img> или <video>, должно заполнять контейнер относительно его высоты и ширины.
-    }
-    .page-section {
-        margin: 50px 0;
-    }
-    .title {
-        margin-bottom: 25px;
-        font-size: 60px;
-        line-height: 110px;
-    }
-    .fairy-tail__title span,
-    .our-trip__title span {
-        margin-left: 110px;
-    }
-    .our-trip__list {
-        margin: 5px 0;
-        font-size: 16px;
-        line-height: 20px;
-    }
-    .our-trip__btn {
-        font-size: 16px;
-        line-height: 20px;
-        font-family: 'RobotoCondensed-Light';
-        padding: 11px 33px;
-        border: 1px solid #E2AB3F;
-    }
-    .hotel__images {
-        margin-right: 10px;
-        width: 50%;
-    }
-}
-
-@media (max-width:370px) {
-    .header__top {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .menu {
-        width: 100%;
-        text-align: center;
-        margin: 0 0 25px;
-    }
-    .header__title {
-        font-size: 60px;
-        line-height: 100px;
-    }
-    .header__title span {
-        font-size: 18px;
-        margin-right: 0px;
-    }
-    .menu__list-item+.menu__list-item {
-        margin-left: 18px;
-    }
-    .title {
-        font-size: 50px;
-    }
-    .title span {
-        font-size: 20px;
-    }
-    .fairy-tail__title span,
-    .our-trip__title span {
-        margin-left: 90px;
-    }
-    .our-trip__btn {
-        font-size: 14px;
-        line-height: 16px;
-        font-family: 'RobotoCondensed-Light';
-        padding: 11px 33px;
-        border: 1px solid #E2AB3F;
-    }
-}
+        @media (max-width:1240px) {
+            .header__title {
+                padding-top: 120px;
+                font-size: 180px;
+                line-height: 220px;
+            }
+            .header__title span {
+                font-size: 50px;
+                margin-top: -50px;
+            }
+        }
+        
+        @media (max-width:991px) {
+            .page-section {
+                margin: 100px 0;
+            }
+            .fairy-tail__container,
+            .our-trip__container {
+                position: static; //отправили вниз
+            }
+            .fairy-tail__slider {
+                width: 100%; ///lделаем на вес экран
+            }
+            .our-trip__slider {
+                width: 100%; ///lделаем на вес экран
+            }
+            .fairy-tail__body {
+                width: 100%;
+                padding-left: 0;
+            }
+            .our-trip__body {
+                width: 100%;
+                padding-left: 0;
+            }
+            .hotel__images {
+                margin-right: 50px;
+            }
+            .hotel__content {
+                margin-right: 20px;
+                overflow: hidden;
+            }
+            .footer__text {
+                font-family: 'balqis';
+                font-size: 60px;
+                line-height: 80px;
+            }
+            .contacts__images {
+                width: 50%;
+                background-position: center;
+            }
+            .contacts__date {
+                margin-left: 150px;
+            }
+            .our-trip__list {
+                margin: 5px 0;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+        
+        @media (max-width:840px) {
+            .header__title {
+                padding-top: 100px;
+                font-size: 120px;
+                line-height: 150px;
+            }
+            .header__title span {
+                font-size: 30px;
+                margin-top: -44px;
+            }
+            .header__top {
+                font-size: 20px;
+                line-height: 24px;
+            }
+            .header__phone::before {
+                width: 25px;
+                height: 25px;
+                background-size: cover;
+            }
+            .hotel__images {
+                margin-right: 30px;
+                width: 30%;
+            }
+            .price {
+                background-position: 80%;
+            }
+            .contacts__images {
+                width: 50%;
+                background-position: center;
+            }
+            .contacts__date {
+                margin-left: 100px;
+            }
+        }
+        
+        @media (max-width:800px) {
+            .footer__inner {
+                position: relative;
+            }
+            .footer__text {
+                position: absolute;
+                bottom: 10px;
+            }
+        }
+        
+        @media (max-width:750px) {
+            .hotel__inner {
+                display: block
+            }
+            .hotel__images {
+                width: 100%;
+            }
+            .hotel__content {
+                margin-right: 5px;
+                // overflow: hidden;
+                width: 100%;
+                overflow: right;
+            }
+            .hotel__gallery {
+                position: absolute;
+                display: grid;
+                grid-template-areas: "a1 a2" "a3 a4";
+                width: 100%;
+                justify-content: center;
+                grid-gap: 20px;
+            }
+            .hotel__gallery-img1 {
+                grid-area: a1;
+            }
+            .hotel__gallery-img2 {
+                grid-area: a2;
+            }
+            .hotel__gallery-img3 {
+                grid-area: a3;
+            }
+            .hotel__gallery-img4 {
+                grid-area: a4;
+            }
+            .price .page-section {
+                margin-top: 500px;
+                position: relative;
+            }
+            .price__title {
+                font-size: 60px;
+                line-height: 90px;
+                color: #E2AB3F;
+                font-family: 'balqis';
+                font-weight: 200;
+                margin-bottom: 30px;
+            }
+            .price {
+                background-position: 70% left;
+            }
+            .price__on {
+                margin-right: 10px;
+                max-width: 350px;
+            }
+            .container__empty {
+                height: 400px;
+                width: 100%;
+            }
+            .contacts__date {
+                margin-left: 50px;
+            }
+            .contacts__date,
+            .contacts__price {
+                font-family: 'balqis';
+                font-size: 60px;
+                color: #E2AB3F;
+                line-height: 70px;
+                font-weight: 300;
+            }
+        }
+        
+        @media (max-width:600px) {
+            .header__top {
+                justify-content: center;
+                flex-wrap: wrap; //перенос если нет места
+            }
+            .menu {
+                width: 100%;
+                text-align: center;
+                margin: 0 0 25px;
+            }
+            .header__title {
+                font-size: 80px;
+                line-height: 120px;
+            }
+            .header__title span {
+                font-size: 22px;
+                margin-top: -46px;
+                margin-right: 15px;
+            }
+            .fairy-tail__item img,
+            .our-trip__slider-item img {
+                height: 50vh;
+                width: 100%; //полоску белую убрали сбоку
+                object-fit: cover; //аналог свойства замостить обязательно с высотой и ширитой
+                //Свойство object-fit определяет, как содержимое заменяемого элемента, такого как <img> или <video>, должно заполнять контейнер относительно его высоты и ширины.
+            }
+            .page-section {
+                margin: 50px 0;
+            }
+            .title {
+                margin-bottom: 25px;
+                font-size: 60px;
+                line-height: 110px;
+            }
+            .fairy-tail__title span,
+            .our-trip__title span {
+                margin-left: 110px;
+            }
+            .our-trip__list {
+                margin: 5px 0;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .our-trip__btn {
+                font-size: 16px;
+                line-height: 20px;
+                font-family: 'RobotoCondensed-Light';
+                padding: 11px 33px;
+                border: 1px solid #E2AB3F;
+            }
+            .hotel__images {
+                margin-right: 10px;
+                width: 100%;
+            }
+            .price {
+                background-position: 50% left;
+            }
+            .contacts__date,
+            .contacts__price {
+                font-family: 'balqis';
+                font-size: 30px;
+                color: #E2AB3F;
+                line-height: 50px;
+                font-weight: 300;
+            }
+            .contacts__form-title {
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                font-family: 'RobotoCondensed-Regular';
+            }
+            .contacts__form-input {
+                border: 1px solid #E2AB3F;
+                display: block;
+                margin-bottom: 10px;
+                height: 30px;
+                width: 100%;
+                padding: 0 20px;
+                font-family: 'RobotoCondensed-Light';
+            }
+            .contacts__form-btn {
+                font-family: 'RobotoCondensed-Light';
+                font-size: 16px;
+                line-height: 20px;
+                text-transform: uppercase;
+                border: 1px solid #E2AB3F;
+                background-color: transparent;
+                padding: 5px 15px;
+            }
+        }
+        
+        @media (max-width:370px) {
+            .header__top {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .menu {
+                width: 100%;
+                text-align: center;
+                margin: 0 0 25px;
+            }
+            .header__title {
+                font-size: 60px;
+                line-height: 100px;
+            }
+            .header__title span {
+                font-size: 18px;
+                margin-right: 0px;
+            }
+            .menu__list-item+.menu__list-item {
+                margin-left: 18px;
+            }
+            .title {
+                font-size: 50px;
+            }
+            .title span {
+                font-size: 20px;
+            }
+            .fairy-tail__title span,
+            .our-trip__title span {
+                margin-left: 90px;
+            }
+            .our-trip__btn {
+                font-size: 14px;
+                line-height: 16px;
+                font-family: 'RobotoCondensed-Light';
+                padding: 11px 33px;
+                border: 1px solid #E2AB3F;
+            }
+            .footer__text {
+                font-family: 'balqis';
+                font-size: 30px;
+                line-height: 80px;
+                text-align: center;
+            }
+        }
